@@ -98,6 +98,11 @@
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="AngularApp\dist\inline.bundle.js.map" />
+    <Content Include="AngularApp\dist\main.bundle.js.map" />
+    <Content Include="AngularApp\dist\polyfills.bundle.js.map" />
+    <Content Include="AngularApp\dist\styles.bundle.js.map" />
+    <Content Include="AngularApp\dist\vendor.bundle.js.map" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -106,6 +111,13 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="AngularApp\dist\favicon.ico" />
+    <Content Include="AngularApp\dist\index.html" />
+    <Content Include="AngularApp\dist\inline.bundle.js" />
+    <Content Include="AngularApp\dist\main.bundle.js" />
+    <Content Include="AngularApp\dist\polyfills.bundle.js" />
+    <Content Include="AngularApp\dist\styles.bundle.js" />
+    <Content Include="AngularApp\dist\vendor.bundle.js" />
     <Content Include="Default.aspx" />
     <Content Include="Global.asax" />
     <Content Include="scripts\ai.0.22.9-build00167.js" />
