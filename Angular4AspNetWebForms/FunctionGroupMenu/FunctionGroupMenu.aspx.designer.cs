@@ -7,9 +7,9 @@
 // </自動產生的>
 //------------------------------------------------------------------------------
 
-namespace Angular4AspNetWebForms {
+namespace Angular4AspNetWebForms.FunctionGroupMenu {
     
     
-    public partial class Default {
+    public partial class FunctionGroupMenu {
     }
 }
