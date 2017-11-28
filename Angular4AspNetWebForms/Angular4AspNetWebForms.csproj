@@ -121,7 +121,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Default.html" />
+    <Content Include="Default.aspx" />
     <Content Include="EF\ESFAccModel.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <LastGenOutput>ESFAccModel.Context.cs</LastGenOutput>
@@ -172,6 +172,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Controller\ValuesController.cs" />
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
     <Compile Include="EF\ESFAccModel.Context.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
